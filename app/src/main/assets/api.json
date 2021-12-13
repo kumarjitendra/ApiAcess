@@ -1,0 +1,38 @@
+{
+  "package": "sun.util.logging",
+  "classes": [
+    {
+      "class": "LoggingSupport",
+      "access": "public",
+      "fields": [
+        {
+          "name": "proxy",
+          "access": "private"
+        }
+      ],
+      "methods": [
+        {
+          "name": "isAvailable",
+          "access": "public",
+          "parameters": [],
+          "returnType": boolean
+        }, {
+          "name": "ensureAvailable",
+          "access": "private",
+          "parameters": [],
+          "returnType": "void"
+        },{
+          "name": "getLoggerNames",
+          "access": "public",
+          "parameters": [],
+          "returnType": "java.util.List<String>"
+        },{
+          "name": "getLoggerNames",
+          "access": "public",
+          "parameters": [],
+          "returnType": "java.util.List<String>"
+        }
+      ]
+    }
+  ]
+}
