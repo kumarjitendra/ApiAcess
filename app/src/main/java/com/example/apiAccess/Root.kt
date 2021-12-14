@@ -1,6 +1,6 @@
 package com.example.apiAccess
 
-data class LoggingSupport(
-    val classes: List<Classe>,
+data class Root(
+    val aClasses: List<Classes>,
     val `package`: String
 )

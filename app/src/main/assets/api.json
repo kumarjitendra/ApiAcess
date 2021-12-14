@@ -2,7 +2,7 @@
   "package": "sun.util.logging",
   "classes": [
     {
-      "class": "LoggingSupport",
+      "className": "LoggingSupport",
       "access": "public",
       "fields": [
         {

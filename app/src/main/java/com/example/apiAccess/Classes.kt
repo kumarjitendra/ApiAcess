@@ -1,8 +1,8 @@
 package com.example.apiAccess
 
-data class Classe(
+data class Classes(
     val access: String,
-    val `class`: String,
+    val className: String,
     val fields: List<Field>,
     val methods: List<Method>
 )
